@@ -1,7 +1,7 @@
 const express = require('express')
 const products_routes = require('./routes/products.js')
 const users_routes = require('./routes/users.js')  
-const slugify = require('slugif')
+const slugify = require('slugify')
 
 const app = express()
 
